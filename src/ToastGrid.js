@@ -53,6 +53,7 @@ const RtnGrid = (props) => {
       // width={'auto'}
       bodyHeight={'fitToParent'}
       // virtualScrolling={true}
+      selectionUnit='row'
       rowHeaders= {[
         { type: 'rowNum', width: 100 }
       ]}
